@@ -1,6 +1,6 @@
-package sandbox;
+package main.java.sandbox;
 
-import java.sql.SQLOutput;
+
 
 public class MyFirstProgram {
 

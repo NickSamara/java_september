@@ -3,8 +3,9 @@ package main.java.sandbox;
 public class MyFirstProgram {
 
  public static void main(String[] args) {
+ 	String somebody = "world";
 
- 	System.out.println("Hello, world !");
+ 	System.out.println("Hello, " + somebody +  "!");
 
 	 System.out.println(2 + 2);
 	 System.out.println(2 * 2);
@@ -24,11 +25,13 @@ public class MyFirstProgram {
 	 System.out.println("2 + 2 = " + 2 + 2);
 	 System.out.println("2 + 2 = " + (2 + 2));
 
-		int l = 8;
-		int s = l * l;
+
+	 double l = 6.0;
+	 double s = l * l;
 	 System.out.println("Площадь квадрата со стороной " + l + " = " + s);
 	}
 
 
-
 }
+
+

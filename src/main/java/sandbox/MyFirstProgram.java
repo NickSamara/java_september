@@ -2,36 +2,32 @@ package main.java.sandbox;
 
 public class MyFirstProgram {
 
- public static void main(String[] args) {
- 	String somebody = "world";
-
- 	System.out.println("Hello, " + somebody +  "!");
-
-	 System.out.println(2 + 2);
-	 System.out.println(2 * 2);
-	 System.out.println(2 / 2);
-	 System.out.println(2 - 2);
-
-	 System.out.println(1 / 2);
-	 System.out.println(1.0 / 2);
-	 System.out.println(1 / 2.0);
-	 System.out.println(2.0 / 2);
-	 System.out.println("2" + "2");
-	 System.out.println("2" + 2);
-	 System.out.println(2 + "2");
-
-	 System.out.println(2 + 2 * 2);
-	 System.out.println((2 + 2) * 2);
-	 System.out.println("2 + 2 = " + 2 + 2);
-	 System.out.println("2 + 2 = " + (2 + 2));
+	public static void main(String[] args) {
+		hello("world");
+		hello("Бобр");
+		hello("Пингва");
 
 
-	 double l = 6.0;
-	 double s = l * l;
-	 System.out.println("Площадь квадрата со стороной " + l + " = " + s);
+		double i = 5;
+		System.out.println("Площадь квадрата со стороной " + i + " = " + area(i) );
+
+		double a = 4;
+		double b = 6;
+		System.out.println("Площадь прямоугольника со сторонами " + a + " и " + b + " = " + area(a, b));
+	}
+
+	public static void hello(String somebody) {
+
+		System.out.println("Hello, " + somebody + "!");
+
 	}
 
 
+	public static double area(double len) {
+		return len * len;
+	}
+
+	public static double area (double a, double b) {
+		return a * b;
+	}
 }
-
-

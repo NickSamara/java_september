@@ -25,8 +25,8 @@ public class MyFirstProgram {
 	 System.out.println("2 + 2 = " + (2 + 2));
 
 		int l = 8;
-		int s = l + l;
-	 System.out.println("Площадь квадрата со стороной " + l + " = " + (l * l));
+		int s = l * l;
+	 System.out.println("Площадь квадрата со стороной " + l + " = " + s);
 	}
 
 
